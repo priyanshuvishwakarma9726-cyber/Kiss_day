@@ -48,8 +48,8 @@ export default function SecretMessage() {
                         // since particles fall down, start a bit higher than random
                         y: (Math.random() * skew) - 0.2
                     },
-                    colors: ['#ff0000', '#ff69b4', '#ffffff'],
-                    shapes: ['heart'],
+                    colors: ['#ff0000', '#ff1493', '#ff69b4', '#ffc0cb'],
+                    shapes: ['circle', 'square'],
                     gravity: 0.5,
                     scalar: 2,
                     drift: 0,
